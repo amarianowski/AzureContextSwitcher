@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AzureContextSwitcher (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AzureContextSwitcher (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
