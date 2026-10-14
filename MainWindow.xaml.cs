@@ -42,9 +42,6 @@ namespace AzureContextSwitcher
             }
             catch (Exception ex)
             {
-                LoadingProgressRing.IsActive = false;
-                LoadingProgressRing.Visibility = Visibility.Collapsed;
-                ErrorTextBlock.Text = $"Error: {ex.Message}";
                 ErrorTextBlock.Visibility = Visibility.Visible;
             }
         }
